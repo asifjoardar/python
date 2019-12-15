@@ -1,0 +1,35 @@
+a={'asif','asif','joardar',22,1997}
+print(a)
+print(type(a))
+a=set('asdsdssdsadasd')
+print(a)
+a=set()
+print(a)
+a.add('asif')
+print(a)
+a.update({'joardar',22,1997})
+print(a)
+a.remove(22)
+print(a)
+a.discard(22)
+print(a)
+a.pop() #it remove 1st element
+print(a)
+print(a.pop())
+print(a)
+a.clear() #remove whole set
+print(a)
+a={1,2,3}
+b={4,5}
+a=a.union(b)
+print(a)
+a={1,2,3}
+b={1,2,3,4,5}
+a=a.intersection(b)
+print(a)
+a={1,2,3,4,5}
+b={1,2,3}
+a=a.difference(b)
+print(a)
+b=b.difference(a)
+print(b)
