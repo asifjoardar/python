@@ -1,0 +1,34 @@
+a=[]
+print(a)
+a=['asif',22,123.54,'cse']
+print(a[0])
+print(a[1])
+print(a[2])
+print(len(a))
+print(a[0:2])
+print(a[:3])
+print(a[2:])
+print(a[-1])
+a[0]='joardar'
+a[1]='asif'
+print(a)
+a.append('new')
+print(a)
+a.insert(1,'1997')
+print(a)
+a.extend(['a','b','c'])
+print(a)
+a=['a','b']+a
+print(a)
+a.remove('a')
+print(a)
+a.remove('a')
+print(a)
+del a[0]
+del a[-1]
+print(a)
+a.reverse()
+print(a)
+a=[1,5,4,7,9,3]
+a.sort()
+print(a)
